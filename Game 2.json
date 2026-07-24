@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 272,
+    "build": 274,
     "major": 5,
     "minor": 6,
     "revision": 0
@@ -19,7 +19,7 @@
     "sizeOnStartupMode": "",
     "templateSlug": "starting-platformer",
     "version": "1.0.0",
-    "name": "Game 2 ",
+    "name": "Game 2",
     "description": "",
     "author": "",
     "windowWidth": 1280,
@@ -92,7 +92,7 @@
   "resources": {
     "resources": [
       {
-        "file": "assets/StartingPlayer.png",
+        "file": "assets/StartingPlayer2.png",
         "kind": "image",
         "metadata": "",
         "name": "assets\\StartingPlayer.png",
@@ -100,7 +100,7 @@
         "userAdded": false
       },
       {
-        "file": "assets/StartingGround.png",
+        "file": "assets/StartingGround2.png",
         "kind": "image",
         "metadata": "",
         "name": "assets\\StartingGround.png",
@@ -108,7 +108,7 @@
         "userAdded": false
       },
       {
-        "file": "assets/Background.png",
+        "file": "assets/Background2.png",
         "kind": "image",
         "metadata": "",
         "name": "assets\\Background.png",
@@ -116,7 +116,7 @@
         "userAdded": false
       },
       {
-        "file": "assets/StartingCoin.png",
+        "file": "assets/StartingCoin2.png",
         "kind": "image",
         "metadata": "",
         "name": "assets\\StartingCoin.png",
@@ -124,7 +124,7 @@
         "userAdded": false
       },
       {
-        "file": "assets/Top arrow button.png",
+        "file": "assets/Top arrow button2.png",
         "kind": "image",
         "metadata": "",
         "name": "Top arrow button.png",
@@ -136,7 +136,7 @@
         }
       },
       {
-        "file": "assets/Flat dark joystick border.png",
+        "file": "assets/Flat dark joystick border2.png",
         "kind": "image",
         "metadata": "",
         "name": "Flat dark joystick border.png",
@@ -148,7 +148,7 @@
         }
       },
       {
-        "file": "assets/Flat dark joystick thumb.png",
+        "file": "assets/Flat dark joystick thumb2.png",
         "kind": "image",
         "metadata": "",
         "name": "Flat dark joystick thumb.png",
@@ -160,7 +160,7 @@
         }
       },
       {
-        "file": "assets/CoinPickUp.wav",
+        "file": "assets/CoinPickUp2.wav",
         "kind": "audio",
         "metadata": "",
         "name": "assets/CoinPickUp.wav",
@@ -170,7 +170,7 @@
         "userAdded": false
       },
       {
-        "file": "assets/assets_StartingCoin.png",
+        "file": "assets/assets_StartingCoin3.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "assets\\StartingCoin",
@@ -178,7 +178,7 @@
         "userAdded": false
       },
       {
-        "file": "assets/assets_StartingCoin2.png",
+        "file": "assets/assets_StartingCoin4.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "assets\\StartingCoin2",
@@ -186,7 +186,7 @@
         "userAdded": false
       },
       {
-        "file": "assets/NewSprite.png",
+        "file": "assets/NewSprite3.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite",
@@ -194,7 +194,7 @@
         "userAdded": false
       },
       {
-        "file": "assets/NewSprite2.png",
+        "file": "assets/NewSprite4.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite2",
@@ -202,7 +202,7 @@
         "userAdded": false
       },
       {
-        "file": "assets/assets_StartingPlayer.png",
+        "file": "assets/assets_StartingPlayer3.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "assets\\StartingPlayer",
@@ -210,7 +210,7 @@
         "userAdded": false
       },
       {
-        "file": "assets/assets_StartingPlayer2.png",
+        "file": "assets/assets_StartingPlayer4.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "assets\\StartingPlayer2",
@@ -218,12 +218,42 @@
         "userAdded": false
       },
       {
-        "file": "assets/Portal.png",
+        "file": "assets/Portal2.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "Portal",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/StartingGround.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "assets\\StartingGround.png2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/VT323-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "8612da6519a39bab40fb3fb527dd7574679e45f603b2be582cf2d47a6b12b93f_VT323-Regular.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Open Font License/8612da6519a39bab40fb3fb527dd7574679e45f603b2be582cf2d47a6b12b93f_VT323-Regular.ttf",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/Kenney Rocket Square.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "230dad49e1cb1d076ffee25fbe334f5f9921aea9d4364d60196d4c03191fbe86_Kenney Rocket Square.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Kenney Font Pack/230dad49e1cb1d076ffee25fbe334f5f9921aea9d4364d60196d4c03191fbe86_Kenney Rocket Square.ttf",
+          "name": "gdevelop-asset-store"
+        }
       }
     ]
   },
@@ -265,6 +295,7 @@
       "variables": [
         {
           "name": "Found",
+          "persistentUuid": "53f75d5a-17e5-4367-9b13-7ba26598e2cc",
           "type": "boolean",
           "value": false
         }
@@ -465,6 +496,22 @@
           "x": 1759,
           "y": 124,
           "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "HUD",
+          "name": "Score",
+          "persistentUuid": "dc0f9614-0cf0-4eb7-aaff-813f585f0488",
+          "width": 0,
+          "x": 43,
+          "y": 39,
+          "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -670,7 +717,7 @@
           "assetStoreId": "",
           "height": 64,
           "name": "Platform_Ground",
-          "texture": "assets\\StartingGround.png",
+          "texture": "assets\\StartingGround.png2",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 64,
           "variables": [],
@@ -948,6 +995,56 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "Score",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [
+            {
+              "name": "Score",
+              "persistentUuid": "2fcbb66c-4cf0-4c71-a956-d94c08f74c80",
+              "type": "number",
+              "value": 0
+            }
+          ],
+          "effects": [],
+          "behaviors": [],
+          "string": "Score: 0",
+          "font": "230dad49e1cb1d076ffee25fbe334f5f9921aea9d4364d60196d4c03191fbe86_Kenney Rocket Square.ttf",
+          "textAlignment": "left",
+          "characterSize": 40,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Score: 0",
+            "font": "230dad49e1cb1d076ffee25fbe334f5f9921aea9d4364d60196d4c03191fbe86_Kenney Rocket Square.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 40,
+            "lineHeight": 0,
+            "color": "0;0;0"
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -970,6 +1067,9 @@
           },
           {
             "objectName": "Portal"
+          },
+          {
+            "objectName": "Score"
           }
         ]
       },
@@ -1024,6 +1124,17 @@
                 "",
                 "80",
                 "RandomFloatInRange(0.75,1)"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Score",
+                "Score",
+                "+",
+                "10"
               ]
             }
           ]
@@ -1139,6 +1250,23 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "Score",
+                "Text",
+                "=",
+                "\"Score: \" + VariableString(Score)"
+              ]
+            }
+          ]
         }
       ],
       "layers": [
@@ -1159,6 +1287,60 @@
           "visibility": true,
           "cameras": [],
           "effects": []
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "End Screen",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
         },
         {
           "ambientLightColorB": 200,
@@ -1206,6 +1388,60 @@
           "visibility": true,
           "cameras": [],
           "effects": []
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "HUD",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
         }
       ],
       "behaviorsSharedData": [
@@ -1244,6 +1480,10 @@
         {
           "name": "SmoothCamera",
           "type": "SmoothCamera::SmoothCamera"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
         }
       ]
     }
