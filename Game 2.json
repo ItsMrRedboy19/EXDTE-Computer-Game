@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 277,
+    "build": 279,
     "major": 5,
     "minor": 6,
     "revision": 0
@@ -406,6 +406,54 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/05b0c1364a92b436b86ca819e66b63480d1bc2fb399f6c0cf8bffbf8199ccc2a_CantoraOne-Regular.ttf",
           "name": "CantoraOne-Regular.ttf"
         }
+      },
+      {
+        "file": "assets/Mushrooms.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Mushrooms",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Flies3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Flies3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Flies4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Flies4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewTiledSprite.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "NewTiledSprite",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewTiledSprite2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/NewTiledSprite2.png\"}",
+        "name": "NewTiledSprite2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewTiledSprite3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "NewTiledSprite3",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -417,6 +465,7 @@
   "variables": [
     {
       "name": "Score",
+      "persistentUuid": "b964f734-ec0d-4915-bede-648756c7e4c9",
       "type": "number",
       "value": 0
     }
@@ -444,13 +493,18 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.39251611754882604,
+        "zoomFactor": 0.3925161175488279,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
       },
       "objectsGroups": [],
       "variables": [
+        {
+          "name": "TimeLeft",
+          "type": "number",
+          "value": 300
+        },
         {
           "name": "Found",
           "persistentUuid": "53f75d5a-17e5-4367-9b13-7ba26598e2cc",
@@ -533,11 +587,11 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "Mushrooms",
+          "name": "Blueberry",
           "persistentUuid": "4c79f19c-996c-40e5-a8fb-fcaa13753abd",
           "width": 0,
-          "x": 1145,
-          "y": 144,
+          "x": 1150,
+          "y": 110,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -549,11 +603,11 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "Mushrooms",
+          "name": "Blueberry",
           "persistentUuid": "ad149014-b1f1-44bd-8a58-27b4aa2a7d41",
           "width": 0,
-          "x": 953,
-          "y": 144,
+          "x": 921,
+          "y": 110,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -565,11 +619,11 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "Mushrooms",
+          "name": "Blueberry",
           "persistentUuid": "4d3402ec-1550-4679-a363-6c1361c0fe53",
           "width": 0,
-          "x": 1017,
-          "y": 144,
+          "x": 1000,
+          "y": 110,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -581,11 +635,11 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "Mushrooms",
+          "name": "Blueberry",
           "persistentUuid": "e6622e84-477f-4c15-95ff-82ba580b8e3d",
           "width": 0,
-          "x": 1081,
-          "y": 144,
+          "x": 1077,
+          "y": 110,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -664,11 +718,11 @@
           "height": 0,
           "keepRatio": true,
           "layer": "HUD",
-          "name": "Mushroom_Score",
+          "name": "Blueberry_Score",
           "persistentUuid": "dc0f9614-0cf0-4eb7-aaff-813f585f0488",
           "width": 0,
-          "x": 43,
-          "y": 39,
+          "x": 37,
+          "y": 15,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -718,7 +772,7 @@
           "persistentUuid": "0796f59a-3118-4441-bfa7-f1b7c38713d6",
           "width": 0,
           "x": 562,
-          "y": 479,
+          "y": 480,
           "zOrder": 13,
           "numberProperties": [],
           "stringProperties": [],
@@ -733,9 +787,76 @@
           "name": "Flies",
           "persistentUuid": "a394412c-dbb1-4803-ae51-c51559c8074c",
           "width": 0,
-          "x": 1257,
-          "y": 257,
+          "x": 1230,
+          "y": 260,
           "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 6014,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Background_Day",
+          "persistentUuid": "93c01a50-e64a-4da6-a93c-935dee1ef256",
+          "width": 8239,
+          "x": -3810,
+          "y": -3260,
+          "zOrder": -1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "HUD",
+          "name": "Time",
+          "persistentUuid": "2e56d5b5-0b5c-42bc-93d8-f49146f22637",
+          "width": 0,
+          "x": 955,
+          "y": 15,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 6474,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Background_Dusk",
+          "persistentUuid": "037ce9ac-c177-46be-9ad3-813e89a36dcc",
+          "width": 9906,
+          "x": -4367,
+          "y": -3442,
+          "zOrder": -2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 7321,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Background_Night",
+          "persistentUuid": "ef855a08-5de3-46a8-98df-0bd812743d7e",
+          "width": 10639,
+          "x": -4548,
+          "y": -3958,
+          "zOrder": -3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -879,7 +1000,7 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "Mushrooms",
+          "name": "Blueberry",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -887,7 +1008,7 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "assets\\StartingCoin",
+              "name": "Blueberries",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -897,7 +1018,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets\\StartingCoin2",
+                      "image": "Mushrooms",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -913,20 +1034,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 6,
-                            "y": 10
+                            "x": 4,
+                            "y": 16
                           },
                           {
-                            "x": 26,
-                            "y": 10
+                            "x": 58,
+                            "y": 16
                           },
                           {
-                            "x": 26,
-                            "y": 31
+                            "x": 58,
+                            "y": 58
                           },
                           {
-                            "x": 6,
-                            "y": 31
+                            "x": 4,
+                            "y": 58
                           }
                         ]
                       ]
@@ -1225,7 +1346,7 @@
           "assetStoreId": "",
           "bold": false,
           "italic": false,
-          "name": "Mushroom_Score",
+          "name": "Blueberry_Score",
           "smoothed": true,
           "type": "TextObject::Text",
           "underlined": false,
@@ -1557,7 +1678,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Flies2",
+                      "image": "Flies4",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1573,20 +1694,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 0,
-                            "y": 17
+                            "x": 3,
+                            "y": 10
                           },
                           {
-                            "x": 64,
-                            "y": 17
+                            "x": 125,
+                            "y": 10
                           },
                           {
-                            "x": 64,
-                            "y": 64
+                            "x": 125,
+                            "y": 62
                           },
                           {
-                            "x": 0,
-                            "y": 64
+                            "x": 3,
+                            "y": 62
                           }
                         ]
                       ]
@@ -1596,6 +1717,82 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "Background_Day",
+          "texture": "NewTiledSprite",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "Background_Dusk",
+          "texture": "NewTiledSprite2",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "Time",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Time: 300",
+          "font": "230dad49e1cb1d076ffee25fbe334f5f9921aea9d4364d60196d4c03191fbe86_Kenney Rocket Square.ttf",
+          "textAlignment": "left",
+          "characterSize": 40,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Time: 300",
+            "font": "230dad49e1cb1d076ffee25fbe334f5f9921aea9d4364d60196d4c03191fbe86_Kenney Rocket Square.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 40,
+            "lineHeight": 0,
+            "color": "0;0;0"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "Background_Night",
+          "texture": "NewTiledSprite3",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
         }
       ],
       "objectsFolderStructure": {
@@ -1614,7 +1811,7 @@
             "objectName": "Platform_Move_Horizontal"
           },
           {
-            "objectName": "Mushrooms"
+            "objectName": "Blueberry"
           },
           {
             "objectName": "Friend"
@@ -1626,13 +1823,25 @@
             "objectName": "Portal"
           },
           {
-            "objectName": "Mushroom_Score"
+            "objectName": "Blueberry_Score"
           },
           {
             "objectName": "Monster"
           },
           {
             "objectName": "Flies"
+          },
+          {
+            "objectName": "Time"
+          },
+          {
+            "objectName": "Background_Day"
+          },
+          {
+            "objectName": "Background_Dusk"
+          },
+          {
+            "objectName": "Background_Night"
           }
         ]
       },
@@ -1826,7 +2035,7 @@
                   },
                   "parameters": [
                     "Player",
-                    "Mushrooms",
+                    "Blueberry",
                     "",
                     "",
                     ""
@@ -1838,7 +2047,7 @@
                   },
                   "parameters": [
                     "Player___Friend",
-                    "Mushrooms",
+                    "Blueberry",
                     "",
                     "",
                     ""
@@ -1864,7 +2073,7 @@
           "events": [
             {
               "type": "BuiltinCommonInstructions::ForEach",
-              "object": "Mushrooms",
+              "object": "Blueberry",
               "conditions": [],
               "actions": [
                 {
@@ -1882,7 +2091,7 @@
                     "value": "Delete"
                   },
                   "parameters": [
-                    "Mushrooms",
+                    "Blueberry",
                     ""
                   ]
                 }
@@ -1979,7 +2188,7 @@
                 "value": "TextContainerCapability::TextContainerBehavior::SetValue"
               },
               "parameters": [
-                "Mushroom_Score",
+                "Blueberry_Score",
                 "Text",
                 "=",
                 "\"Score: \" + ToString(Score)"
@@ -2080,27 +2289,235 @@
               ]
             }
           ]
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Timer",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [],
+          "parameters": []
+        },
+        {
+          "aiGeneratedEventId": "01M069Y1FS3KP579761KP2DC39",
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SceneJustBegins"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"TimeTick\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "TimeLeft",
+                "=",
+                "300"
+              ]
+            }
+          ]
+        },
+        {
+          "aiGeneratedEventId": "01M069Y1FS3KP579761KP2DC39",
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"TimeTick\"",
+                ">=",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "TimeLeft",
+                "-",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"TimeTick\""
+              ]
+            }
+          ]
+        },
+        {
+          "aiGeneratedEventId": "01M069Y1FS3KP579761KP2DC39",
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "Time",
+                "Text",
+                "=",
+                "\"Time: \" + ToString(TimeLeft)"
+              ]
+            }
+          ]
+        },
+        {
+          "aiGeneratedEventId": "01M069Y1FS3KP579761KP2DC39",
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "TimeLeft",
+                "<=",
+                "200"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "TimeLeft",
+                ">",
+                "100"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Show"
+              },
+              "parameters": [
+                "Background_Dusk",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "Background_Day"
+              ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "Background_Night"
+              ]
+            }
+          ]
+        },
+        {
+          "aiGeneratedEventId": "01M069Y1FS3KP579761KP2DC39",
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "TimeLeft",
+                "<=",
+                "100"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Show"
+              },
+              "parameters": [
+                "Background_Night",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "Background_Day"
+              ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "Background_Dusk"
+              ]
+            }
+          ]
+        },
+        {
+          "aiGeneratedEventId": "01M069Y1FS3KP579761KP2DC39",
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "TimeLeft",
+                "<=",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Time End Screen\"",
+                "no"
+              ]
+            }
+          ]
         }
       ],
       "layers": [
-        {
-          "ambientLightColorB": 200,
-          "ambientLightColorG": 200,
-          "ambientLightColorR": 200,
-          "camera2DPlaneMaxDrawingDistance": 5000,
-          "camera3DFarPlaneDistance": 10000,
-          "camera3DFieldOfView": 45,
-          "camera3DNearPlaneDistance": 3,
-          "cameraType": "",
-          "followBaseLayerCamera": false,
-          "isLightingLayer": false,
-          "isLocked": false,
-          "name": "Background",
-          "renderingType": "",
-          "visibility": true,
-          "cameras": [],
-          "effects": []
-        },
         {
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
@@ -2128,24 +2545,6 @@
               "width": 0
             }
           ],
-          "effects": []
-        },
-        {
-          "ambientLightColorB": 200,
-          "ambientLightColorG": 200,
-          "ambientLightColorR": 200,
-          "camera2DPlaneMaxDrawingDistance": 5000,
-          "camera3DFarPlaneDistance": 10000,
-          "camera3DFieldOfView": 45,
-          "camera3DNearPlaneDistance": 3,
-          "cameraType": "",
-          "followBaseLayerCamera": false,
-          "isLightingLayer": false,
-          "isLocked": false,
-          "name": "MobileControls",
-          "renderingType": "",
-          "visibility": true,
-          "cameras": [],
           "effects": []
         },
         {
@@ -2323,7 +2722,7 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "Collected_Mushroom",
+          "name": "Collected_Blueberries",
           "persistentUuid": "422b3d10-1049-4543-bcbd-97c67d5182ca",
           "width": 0,
           "x": 245,
@@ -2401,14 +2800,14 @@
           "assetStoreId": "",
           "bold": false,
           "italic": false,
-          "name": "Collected_Mushroom",
+          "name": "Collected_Blueberries",
           "smoothed": true,
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "Mushrooms Collected: 0",
+          "string": "Blueberries Collected: 0",
           "font": "230dad49e1cb1d076ffee25fbe334f5f9921aea9d4364d60196d4c03191fbe86_Kenney Rocket Square.ttf",
           "textAlignment": "left",
           "characterSize": 40,
@@ -2431,7 +2830,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "Mushrooms Collected: 0",
+            "text": "Blueberries Collected: 0",
             "font": "230dad49e1cb1d076ffee25fbe334f5f9921aea9d4364d60196d4c03191fbe86_Kenney Rocket Square.ttf",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
@@ -2448,7 +2847,7 @@
             "objectName": "End_Screen_Text"
           },
           {
-            "objectName": "Collected_Mushroom"
+            "objectName": "Collected_Blueberries"
           },
           {
             "objectName": "Retry_Button"
@@ -2475,10 +2874,10 @@
                 "value": "TextContainerCapability::TextContainerBehavior::SetValue"
               },
               "parameters": [
-                "Collected_Mushroom",
+                "Collected_Blueberries",
                 "Text",
                 "=",
-                "\"Mushrooms Collected: \" + ToString(Score)"
+                "\"Blueberries Collected: \" + ToString(Score)"
               ]
             }
           ]
@@ -2657,7 +3056,7 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "Mushrooms_Collected",
+          "name": "Collected_Blueberries",
           "persistentUuid": "19fb2f1d-30ce-402a-b7b6-5c6b00ecb2d9",
           "width": 0,
           "x": 236,
@@ -2733,14 +3132,14 @@
           "assetStoreId": "",
           "bold": false,
           "italic": false,
-          "name": "Mushrooms_Collected",
+          "name": "Collected_Blueberries",
           "smoothed": true,
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "Mushrooms Collected: 0",
+          "string": "Blueberries Collected: 0",
           "font": "230dad49e1cb1d076ffee25fbe334f5f9921aea9d4364d60196d4c03191fbe86_Kenney Rocket Square.ttf",
           "textAlignment": "center",
           "characterSize": 40,
@@ -2763,7 +3162,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "Mushrooms Collected: 0",
+            "text": "Blueberries Collected: 0",
             "font": "230dad49e1cb1d076ffee25fbe334f5f9921aea9d4364d60196d4c03191fbe86_Kenney Rocket Square.ttf",
             "textAlignment": "center",
             "verticalTextAlignment": "top",
@@ -2799,7 +3198,7 @@
             "objectName": "Death_Screen_Text"
           },
           {
-            "objectName": "Mushrooms_Collected"
+            "objectName": "Collected_Blueberries"
           },
           {
             "objectName": "Retry_Button"
@@ -2825,10 +3224,10 @@
                 "value": "TextContainerCapability::TextContainerBehavior::SetValue"
               },
               "parameters": [
-                "Mushrooms_Collected",
+                "Collected_Blueberries",
                 "Text",
                 "=",
-                "\"Mushrooms Collected: \" + ToString(Score)"
+                "\"Blueberries Collected: \" + ToString(Score)"
               ]
             }
           ]
@@ -2953,9 +3352,308 @@
           "type": "TextContainerCapability::TextContainerBehavior"
         }
       ]
+    },
+    {
+      "b": 255,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Time_32End_32Screen",
+      "name": "Time End Screen",
+      "r": 247,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 249,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridDepth": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridOffsetZ": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.546875,
+        "windowMask": false,
+        "selectedLayer": "",
+        "gameEditorMode": "instances-editor"
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Retry_Button",
+          "persistentUuid": "c2003029-b74e-4d41-a800-cbab00d497a0",
+          "width": 0,
+          "x": 535,
+          "y": 572,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 194,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Time_End_Text",
+          "persistentUuid": "a73323bf-675d-4075-99e1-6fa854663550",
+          "width": 951,
+          "x": 178,
+          "y": 77,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "Time_End_Text",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Night has approached\n\nYou got lost....",
+          "font": "230dad49e1cb1d076ffee25fbe334f5f9921aea9d4364d60196d4c03191fbe86_Kenney Rocket Square.ttf",
+          "textAlignment": "center",
+          "characterSize": 40,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Night has approached\n\nYou got lost....",
+            "font": "230dad49e1cb1d076ffee25fbe334f5f9921aea9d4364d60196d4c03191fbe86_Kenney Rocket Square.ttf",
+            "textAlignment": "center",
+            "verticalTextAlignment": "top",
+            "characterSize": 40,
+            "lineHeight": 0,
+            "color": "0;0;0"
+          }
+        },
+        {
+          "assetStoreId": "f0c3d7ae6099e3b9b8beed4e30b555107550b4fb2a5879e984a014b1e06865bf",
+          "name": "Retry_Button",
+          "persistentUuid": "673e37c4-9678-40e4-a428-20c144f584e1",
+          "type": "PanelSpriteButton::PanelSpriteButton",
+          "variant": "Transparent Button With White Blue Border",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "LeftPadding": 0,
+            "RightPadding": 0,
+            "PressedLabelOffsetY": 4,
+            "BottomPadding": 6,
+            "TopPadding": 0,
+            "HoveredFadeOutDuration": 0,
+            "LabelText": "Retry"
+          }
+        }
+      ],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "Time_End_Text"
+          },
+          {
+            "objectName": "Retry_Button"
+          }
+        ]
+      },
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+              },
+              "parameters": [
+                "Retry_Button",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Game Scene\"",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "Effect",
+          "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "Flippable",
+          "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
+          "name": "Opacity",
+          "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "Resizable",
+          "type": "ResizableCapability::ResizableBehavior"
+        },
+        {
+          "name": "Scale",
+          "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
+        }
+      ]
     }
   ],
   "externalEvents": [],
+  "tests": [
+    {
+      "description": "Verifies TimeLeft ticks down ~1/sec, the Time text updates, and backgrounds swap at 200 and 100.",
+      "lastRunAt": 1786918175536,
+      "lastRunDurationMs": 1498,
+      "lastRunFramesExecuted": 302,
+      "lastRunStatus": "passed",
+      "name": "Countdown timer works",
+      "type": "gameplay",
+      "source": [
+        "await harness.goToScene('Game Scene');",
+        "await harness.stepFrames(1);",
+        "const startLeft = harness.getSceneVariable('TimeLeft')?.value;",
+        "// Jump close to the dusk threshold and verify ticking + transition.",
+        "harness.setSceneVariable('TimeLeft', 202);",
+        "await harness.stepFrames(150); // ~2.5s -> should drop by ~2",
+        "const afterDusk = harness.getSceneVariable('TimeLeft')?.value;",
+        "const timeText = harness.getObjects('Time')[0].text;",
+        "const duskVisible = harness.getObjects('Background_Dusk')[0].hidden === false;",
+        "const dayHidden = harness.getObjects('Background_Day')[0].hidden === true;",
+        "const nightHidden = harness.getObjects('Background_Night')[0].hidden === true;",
+        "harness.assert(startLeft === 300, 'TimeLeft starts at 300');",
+        "harness.assert(typeof afterDusk === 'number' && afterDusk <= 200, 'TimeLeft decreased after 2.5s (dusk reached): ' + afterDusk);",
+        "harness.assert(timeText.indexOf('Time:') === 0, 'Time text shows countdown');",
+        "harness.assert(duskVisible, 'Dusk background visible at time <= 200');",
+        "harness.assert(dayHidden && nightHidden, 'Day and Night backgrounds hidden during dusk');",
+        "// Jump close to night threshold and verify night transition.",
+        "harness.setSceneVariable('TimeLeft', 102);",
+        "await harness.stepFrames(150);",
+        "const afterNight = harness.getSceneVariable('TimeLeft')?.value;",
+        "const nightVisible = harness.getObjects('Background_Night')[0].hidden === false;",
+        "const duskHidden = harness.getObjects('Background_Dusk')[0].hidden === true;",
+        "harness.assert(afterNight <= 100, 'TimeLeft decreased below 100 (night reached): ' + afterNight);",
+        "harness.assert(nightVisible, 'Night background visible at time <= 100');",
+        "harness.assert(duskHidden, 'Dusk background hidden at night');"
+      ]
+    }
+  ],
   "eventsFunctionsExtensions": [
     {
       "author": "",
