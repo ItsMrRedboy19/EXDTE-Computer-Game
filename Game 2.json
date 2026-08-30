@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 279,
+    "build": 280,
     "major": 5,
     "minor": 6,
     "revision": 0
@@ -454,6 +454,32 @@
         "name": "NewTiledSprite3",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "echoes_of_lumen-pixel-art-game-soundtrack-chiptune-588667.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "echoes_of_lumen-pixel-art-game-soundtrack-chiptune-588667.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Home.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Home",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Home2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Home2",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -493,7 +519,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.3925161175488279,
+        "zoomFactor": 0.31119749424452703,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -803,8 +829,8 @@
           "layer": "",
           "name": "Background_Day",
           "persistentUuid": "93c01a50-e64a-4da6-a93c-935dee1ef256",
-          "width": 8239,
-          "x": -3810,
+          "width": 9298,
+          "x": -1391,
           "y": -3260,
           "zOrder": -1,
           "numberProperties": [],
@@ -836,8 +862,8 @@
           "layer": "",
           "name": "Background_Dusk",
           "persistentUuid": "037ce9ac-c177-46be-9ad3-813e89a36dcc",
-          "width": 9906,
-          "x": -4367,
+          "width": 9687,
+          "x": -1444,
           "y": -3442,
           "zOrder": -2,
           "numberProperties": [],
@@ -853,10 +879,44 @@
           "layer": "",
           "name": "Background_Night",
           "persistentUuid": "ef855a08-5de3-46a8-98df-0bd812743d7e",
-          "width": 10639,
-          "x": -4548,
+          "width": 10076,
+          "x": -1555,
           "y": -3958,
           "zOrder": -3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Platform_Ground",
+          "persistentUuid": "b868eaaa-115c-4ccd-aa8f-ced26b8fe79b",
+          "width": 1841,
+          "x": 3248,
+          "y": 544,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 979,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Home",
+          "persistentUuid": "183977af-ff5c-483c-b744-0d77a36bc8b4",
+          "width": 498,
+          "x": 4630,
+          "y": -342,
+          "zOrder": 16,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1793,6 +1853,67 @@
           "variables": [],
           "effects": [],
           "behaviors": []
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Home",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Home",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Home2",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 52
+                          },
+                          {
+                            "x": 60,
+                            "y": 52
+                          },
+                          {
+                            "x": 60,
+                            "y": 117
+                          },
+                          {
+                            "x": 4,
+                            "y": 117
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -1838,6 +1959,9 @@
             "objectName": "Background_Day"
           },
           {
+            "objectName": "Home"
+          },
+          {
             "objectName": "Background_Dusk"
           },
           {
@@ -1861,11 +1985,38 @@
           ]
         },
         {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SceneJustBegins"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlayMusic"
+              },
+              "parameters": [
+                "",
+                "echoes_of_lumen-pixel-art-game-soundtrack-chiptune-588667.mp3",
+                "yes",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        {
           "colorB": 228,
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "name": "Game Finish",
+          "name": "Game Progression",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [],
@@ -1973,12 +2124,51 @@
           "actions": [
             {
               "type": {
+                "value": "SetX"
+              },
+              "parameters": [
+                "Player___Friend",
+                "=",
+                "3361"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetY"
+              },
+              "parameters": [
+                "Player___Friend",
+                "=",
+                "485"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player___Friend",
+                "Home",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
                 "value": "Scene"
               },
               "parameters": [
                 "",
                 "\"End Screen\"",
-                "no"
+                ""
               ]
             }
           ]
