@@ -488,6 +488,22 @@
         "name": "NewSprite5",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/StartingPlayer3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\StartingPlayer3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/StartingPlayer4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\StartingPlayer4",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -527,7 +543,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.41943397827591805,
+        "zoomFactor": 1.0973679695629819,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -553,23 +569,6 @@
         }
       ],
       "instances": [
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 89,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Player",
-          "persistentUuid": "4ded1d81-e820-41d3-868a-3f314e5850bd",
-          "width": 91,
-          "x": 109,
-          "y": 265,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
         {
           "angle": 0,
           "customSize": true,
@@ -696,8 +695,8 @@
           "name": "Player___Friend",
           "persistentUuid": "b02ccb51-7a88-4cac-9f29-7a7e8b26c61e",
           "width": 198,
-          "x": 10,
-          "y": 255,
+          "x": 53,
+          "y": 253,
           "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
@@ -1428,6 +1427,23 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 134,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Player",
+          "persistentUuid": "859b90bc-455b-442f-b722-30a1505beec8",
+          "width": 69,
+          "x": 181,
+          "y": 217,
+          "zOrder": 38,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -1525,7 +1541,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets\\StartingPlayer2",
+                      "image": "assets\\StartingPlayer4",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1542,7 +1558,7 @@
                         [
                           {
                             "x": 0,
-                            "y": 32
+                            "y": 64
                           },
                           {
                             "x": 0,
@@ -1554,7 +1570,7 @@
                           },
                           {
                             "x": 32,
-                            "y": 32
+                            "y": 64
                           }
                         ]
                       ]
