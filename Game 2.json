@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 281,
+    "build": 282,
     "major": 5,
     "minor": 6,
     "revision": 0
@@ -504,6 +504,206 @@
         "name": "assets\\StartingPlayer4",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/StartingPlayer5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\StartingPlayer5",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/StartingPlayer6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\StartingPlayer6",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/StartingPlayer7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\StartingPlayer7",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/StartingPlayer8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\StartingPlayer8",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/StartingPlayer9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\StartingPlayer9",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/StartingPlayer10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/StartingPlayer10.png\"}",
+        "name": "assets\\StartingPlayer10",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/StartingPlayer11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/StartingPlayer11.png\"}",
+        "name": "assets\\StartingPlayer11",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/PlayerRun.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/PlayerRun.png\"}",
+        "name": "assets\\PlayerRun",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/PlayerRun2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/PlayerRun2.png\"}",
+        "name": "assets\\PlayerRun2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/PlayerRun3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/PlayerRun3.png\"}",
+        "name": "assets\\PlayerRun3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/PlayerRun4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/PlayerRun4.png\"}",
+        "name": "assets\\PlayerRun4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/PlayerRun5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/PlayerRun5.png\"}",
+        "name": "assets\\PlayerRun5",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/PlayerRun6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/PlayerRun6.png\"}",
+        "name": "assets\\PlayerRun6",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Friend.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Friend",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Friend2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Friend2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Friend3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Friend3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Friend4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Friend4.png\"}",
+        "name": "Friend4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Friend5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Friend5",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Friend6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Friend6",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player_Friend.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Player_Friend",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player_Friend2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Player_Friend2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player_Friend3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Player_Friend3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player_Friend4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Player_Friend4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player_Friend5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Player_Friend5",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player_Friend6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Player_Friend6",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -543,7 +743,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 1.0973679695629819,
+        "zoomFactor": 0.7370816317994242,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -671,15 +871,16 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 120,
           "keepRatio": true,
           "layer": "",
           "name": "Friend",
           "persistentUuid": "0749ee46-758c-42e7-9704-7d437a8db3d7",
-          "width": 0,
+          "width": 65,
           "x": 1110,
-          "y": 487,
+          "y": 431,
           "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
@@ -689,14 +890,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 96,
+          "height": 131,
           "keepRatio": true,
           "layer": "",
           "name": "Player___Friend",
           "persistentUuid": "b02ccb51-7a88-4cac-9f29-7a7e8b26c61e",
           "width": 198,
           "x": 53,
-          "y": 253,
+          "y": 218,
           "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
@@ -1437,7 +1638,7 @@
           "layer": "",
           "name": "Player",
           "persistentUuid": "859b90bc-455b-442f-b722-30a1505beec8",
-          "width": 69,
+          "width": 66,
           "x": 181,
           "y": 217,
           "zOrder": 38,
@@ -1531,17 +1732,89 @@
           ],
           "animations": [
             {
-              "name": "assets\\StartingPlayer",
+              "name": "assets\\PlayerRun",
               "useMultipleDirections": false,
               "directions": [
                 {
-                  "looping": false,
+                  "looping": true,
                   "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
+                  "timeBetweenFrames": 0.1,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets\\StartingPlayer4",
+                      "image": "assets\\PlayerRun5",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 64
+                          },
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 32,
+                            "y": 0
+                          },
+                          {
+                            "x": 32,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\PlayerRun6",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 64
+                          },
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 32,
+                            "y": 0
+                          },
+                          {
+                            "x": 32,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\PlayerRun4",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1685,11 +1958,11 @@
                 {
                   "looping": false,
                   "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
+                  "timeBetweenFrames": 0.1,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "NewSprite",
+                      "image": "Friend4",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1705,19 +1978,19 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 0,
-                            "y": 0
+                            "x": 4,
+                            "y": 1
                           },
                           {
-                            "x": 64,
-                            "y": 0
+                            "x": 30,
+                            "y": 1
                           },
                           {
-                            "x": 64,
+                            "x": 30,
                             "y": 64
                           },
                           {
-                            "x": 0,
+                            "x": 4,
                             "y": 64
                           }
                         ]
@@ -1819,13 +2092,13 @@
               "useMultipleDirections": false,
               "directions": [
                 {
-                  "looping": false,
+                  "looping": true,
                   "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
+                  "timeBetweenFrames": 0.1,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "NewSprite2",
+                      "image": "Player_Friend4",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1841,20 +2114,92 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 32,
+                            "x": 0,
                             "y": 0
                           },
                           {
-                            "x": 64,
+                            "x": 66.5,
                             "y": 0
                           },
                           {
-                            "x": 64,
-                            "y": 32
+                            "x": 67,
+                            "y": 64
                           },
                           {
-                            "x": 31.5,
-                            "y": 32
+                            "x": 0,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Player_Friend5",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 66.5,
+                            "y": 0
+                          },
+                          {
+                            "x": 67,
+                            "y": 64
+                          },
+                          {
+                            "x": 0,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Player_Friend6",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 66.5,
+                            "y": 0
+                          },
+                          {
+                            "x": 67,
+                            "y": 64
+                          },
+                          {
+                            "x": 0,
+                            "y": 64
                           }
                         ]
                       ]
@@ -2516,6 +2861,12 @@
             "objectName": "Player"
           },
           {
+            "objectName": "Friend"
+          },
+          {
+            "objectName": "Player___Friend"
+          },
+          {
             "objectName": "Platform_Ground"
           },
           {
@@ -2531,31 +2882,25 @@
             "objectName": "Blueberry"
           },
           {
-            "objectName": "Friend"
-          },
-          {
-            "objectName": "Player___Friend"
-          },
-          {
-            "objectName": "Portal"
+            "objectName": "Flies"
           },
           {
             "objectName": "Blueberry_Score"
           },
           {
-            "objectName": "Monster"
-          },
-          {
-            "objectName": "Flies"
-          },
-          {
             "objectName": "Time"
           },
           {
-            "objectName": "Background_Day"
+            "objectName": "Monster"
+          },
+          {
+            "objectName": "Portal"
           },
           {
             "objectName": "Home"
+          },
+          {
+            "objectName": "Background_Day"
           },
           {
             "objectName": "Background_Dusk"
@@ -2601,8 +2946,8 @@
                 "",
                 "echoes_of_lumen-pixel-art-game-soundtrack-chiptune-588667.mp3",
                 "yes",
-                "",
-                ""
+                "3",
+                "1"
               ]
             }
           ]
