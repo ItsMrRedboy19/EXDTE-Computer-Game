@@ -704,6 +704,86 @@
         "name": "Player_Friend6",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "arpmedia-retro-arcade-game-music-577821 (1).mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "arpmedia-retro-arcade-game-music-577821 (1).mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "player found.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "player found.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "found blueberry.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "found blueberry.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "enter portal.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "enter portal.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "death .mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "death .mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "game end.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "game end.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "level win.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "level win.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "jump.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "jump.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ]
   },
@@ -1639,8 +1719,8 @@
           "name": "Player",
           "persistentUuid": "859b90bc-455b-442f-b722-30a1505beec8",
           "width": 66,
-          "x": 181,
-          "y": 217,
+          "x": 126,
+          "y": 214,
           "zOrder": 38,
           "numberProperties": [],
           "stringProperties": [],
@@ -2114,7 +2194,7 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 0,
+                            "x": 33.5,
                             "y": 0
                           },
                           {
@@ -2126,7 +2206,7 @@
                             "y": 64
                           },
                           {
-                            "x": 0,
+                            "x": 34,
                             "y": 64
                           }
                         ]
@@ -2150,7 +2230,7 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 0,
+                            "x": 33.5,
                             "y": 0
                           },
                           {
@@ -2162,7 +2242,7 @@
                             "y": 64
                           },
                           {
-                            "x": 0,
+                            "x": 34,
                             "y": 64
                           }
                         ]
@@ -2186,7 +2266,7 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 0,
+                            "x": 33.5,
                             "y": 0
                           },
                           {
@@ -2198,7 +2278,7 @@
                             "y": 64
                           },
                           {
-                            "x": 0,
+                            "x": 34,
                             "y": 64
                           }
                         ]
@@ -2930,6 +3010,57 @@
           "conditions": [
             {
               "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "PlatformBehavior::IsJumping"
+                  },
+                  "parameters": [
+                    "Player",
+                    "PlatformerObject"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlatformBehavior::IsJumping"
+                  },
+                  "parameters": [
+                    "Player___Friend",
+                    "PlatformerObject"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "jump.mp3",
+                "",
+                "5",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
                 "value": "SceneJustBegins"
               },
               "parameters": [
@@ -2944,9 +3075,9 @@
               },
               "parameters": [
                 "",
-                "echoes_of_lumen-pixel-art-game-soundtrack-chiptune-588667.mp3",
+                "arpmedia-retro-arcade-game-music-577821 (1).mp3",
                 "yes",
-                "3",
+                "10",
                 "1"
               ]
             }
@@ -3006,6 +3137,18 @@
                 "Found",
                 "True",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "player found.mp3",
+                "",
+                "30",
+                "1"
               ]
             }
           ]
@@ -3092,6 +3235,18 @@
                 "True",
                 "Checkpoint_X"
               ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "enter portal.mp3",
+                "",
+                "30",
+                "1"
+              ]
             }
           ]
         },
@@ -3120,6 +3275,30 @@
                 "",
                 "\"End Screen\"",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "game end.mp3",
+                "",
+                "50",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "level win.mp3",
+                "",
+                "20",
+                "1"
               ]
             }
           ]
@@ -3204,9 +3383,9 @@
               },
               "parameters": [
                 "",
-                "CoinPickUp.wav",
+                "found blueberry.mp3",
                 "no",
-                "100",
+                "50",
                 "1"
               ]
             }
@@ -3283,9 +3462,9 @@
               },
               "parameters": [
                 "",
-                "CoinPickUp.wav",
+                "found blueberry.mp3",
                 "no",
-                "100",
+                "50",
                 "1"
               ]
             }
@@ -3438,6 +3617,18 @@
                 "=",
                 "485"
               ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "death .mp3",
+                "",
+                "50",
+                "1"
+              ]
             }
           ]
         },
@@ -3506,6 +3697,18 @@
                 "",
                 "\"Death Screen\"",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "death .mp3",
+                "",
+                "50",
+                "1"
               ]
             }
           ]
@@ -3732,6 +3935,18 @@
                 "",
                 "\"Time End Screen\"",
                 "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "death .mp3",
+                "",
+                "50",
+                "1"
               ]
             }
           ]
