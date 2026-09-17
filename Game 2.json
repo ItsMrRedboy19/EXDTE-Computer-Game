@@ -784,6 +784,86 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/NewTiledSprite4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "NewTiledSprite4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "background.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "background.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "background2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "background2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "background3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "background3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/background3.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "background3.png2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/background3.png3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "background3.png3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/background3.png4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "background3.png4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "background day.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"background day.png\",\"extension\":\".png\",\"pskl\":{}}",
+        "name": "background day.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "background night.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "background night.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/background night.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "background night.png2",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -823,7 +903,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.7370816317994242,
+        "zoomFactor": 0.09122690912702015,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -959,8 +1039,8 @@
           "name": "Friend",
           "persistentUuid": "0749ee46-758c-42e7-9704-7d437a8db3d7",
           "width": 65,
-          "x": 1110,
-          "y": 431,
+          "x": 1075,
+          "y": 430,
           "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
@@ -976,8 +1056,8 @@
           "name": "Player___Friend",
           "persistentUuid": "b02ccb51-7a88-4cac-9f29-7a7e8b26c61e",
           "width": 198,
-          "x": 53,
-          "y": 218,
+          "x": 1074,
+          "y": 430,
           "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
@@ -1086,14 +1166,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 6014,
+          "height": 5574,
           "keepRatio": true,
           "layer": "",
           "name": "Background_Day",
           "persistentUuid": "93c01a50-e64a-4da6-a93c-935dee1ef256",
           "width": 9298,
-          "x": -1330,
-          "y": -3281,
+          "x": -1187,
+          "y": -3298,
           "zOrder": -1,
           "numberProperties": [],
           "stringProperties": [],
@@ -1125,8 +1205,8 @@
           "name": "Background_Dusk",
           "persistentUuid": "037ce9ac-c177-46be-9ad3-813e89a36dcc",
           "width": 9687,
-          "x": -1444,
-          "y": -3442,
+          "x": -1715,
+          "y": -2953,
           "zOrder": -2,
           "numberProperties": [],
           "stringProperties": [],
@@ -1142,8 +1222,8 @@
           "name": "Background_Night",
           "persistentUuid": "ef855a08-5de3-46a8-98df-0bd812743d7e",
           "width": 10076,
-          "x": -1555,
-          "y": -3958,
+          "x": -1321,
+          "y": -3212,
           "zOrder": -3,
           "numberProperties": [],
           "stringProperties": [],
@@ -2093,6 +2173,7 @@
           "effects": [],
           "behaviors": [
             {
+              "ignoreDefaultControls": false,
               "name": "PlatformerObject",
               "type": "PlatformBehavior::PlatformerObjectBehavior",
               "acceleration": 1000,
@@ -2101,7 +2182,6 @@
               "canGrabWithoutMoving": false,
               "deceleration": 1500,
               "gravity": 1050,
-              "ignoreDefaultControls": false,
               "jumpSpeed": 717,
               "jumpSustainTime": 0.3,
               "ladderClimbingSpeed": 200,
@@ -2194,7 +2274,7 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 33.5,
+                            "x": 0,
                             "y": 0
                           },
                           {
@@ -2206,7 +2286,7 @@
                             "y": 64
                           },
                           {
-                            "x": 34,
+                            "x": 0,
                             "y": 64
                           }
                         ]
@@ -2230,7 +2310,7 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 33.5,
+                            "x": 0,
                             "y": 0
                           },
                           {
@@ -2242,7 +2322,7 @@
                             "y": 64
                           },
                           {
-                            "x": 34,
+                            "x": 0,
                             "y": 64
                           }
                         ]
@@ -2266,7 +2346,7 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 33.5,
+                            "x": 0,
                             "y": 0
                           },
                           {
@@ -2278,7 +2358,7 @@
                             "y": 64
                           },
                           {
-                            "x": 34,
+                            "x": 0,
                             "y": 64
                           }
                         ]
@@ -2731,7 +2811,7 @@
           "assetStoreId": "",
           "height": 32,
           "name": "Background_Day",
-          "texture": "NewTiledSprite",
+          "texture": "background day.png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 32,
           "variables": [],
@@ -2742,7 +2822,7 @@
           "assetStoreId": "",
           "height": 32,
           "name": "Background_Dusk",
-          "texture": "NewTiledSprite2",
+          "texture": "background2.png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 32,
           "variables": [],
@@ -2760,7 +2840,7 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "Time: 300",
+          "string": "Time: 120",
           "font": "230dad49e1cb1d076ffee25fbe334f5f9921aea9d4364d60196d4c03191fbe86_Kenney Rocket Square.ttf",
           "textAlignment": "left",
           "characterSize": 40,
@@ -2783,7 +2863,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "Time: 300",
+            "text": "Time: 120",
             "font": "230dad49e1cb1d076ffee25fbe334f5f9921aea9d4364d60196d4c03191fbe86_Kenney Rocket Square.ttf",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
@@ -2796,7 +2876,7 @@
           "assetStoreId": "",
           "height": 32,
           "name": "Background_Night",
-          "texture": "NewTiledSprite3",
+          "texture": "background night.png2",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 32,
           "variables": [],
@@ -3010,6 +3090,41 @@
           "conditions": [
             {
               "type": {
+                "value": "SceneJustBegins"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "Player___Friend",
+                "PlatformerObject",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "Player___Friend",
+                "SmoothCamera",
+                "no"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
                 "value": "BuiltinCommonInstructions::Or"
               },
               "parameters": [],
@@ -3149,6 +3264,26 @@
                 "",
                 "30",
                 "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "Player___Friend",
+                "PlatformerObject",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "Player___Friend",
+                "SmoothCamera",
+                "yes"
               ]
             }
           ]
@@ -3754,7 +3889,7 @@
               "parameters": [
                 "TimeLeft",
                 "=",
-                "300"
+                "120"
               ]
             }
           ]
@@ -3826,7 +3961,7 @@
               "parameters": [
                 "TimeLeft",
                 "<=",
-                "200"
+                "80"
               ]
             },
             {
@@ -3836,7 +3971,7 @@
               "parameters": [
                 "TimeLeft",
                 ">",
-                "100"
+                "40"
               ]
             }
           ],
@@ -3879,7 +4014,7 @@
               "parameters": [
                 "TimeLeft",
                 "<=",
-                "100"
+                "40"
               ]
             }
           ],
