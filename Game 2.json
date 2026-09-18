@@ -864,6 +864,58 @@
         "name": "background night.png2",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/Flies5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Flies5",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Flies6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Flies6",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Monster.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Monster",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Monster2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Monster2.png\"}",
+        "name": "Monster2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Ladder.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Ladder.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GDevelop examples/Platformer/Level/e3006f0b8d3bf869f63406aa49df6648c3da1723625dd4895577638ed4cad787_Ladder.png",
+          "name": "Ladder.png"
+        }
+      },
+      {
+        "file": "assets/NewSprite8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite8.png\"}",
+        "name": "NewSprite6",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -903,7 +955,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.09122690912702015,
+        "zoomFactor": 0.4194339782759189,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -1132,15 +1184,16 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 121,
           "keepRatio": true,
           "layer": "",
           "name": "Monster",
           "persistentUuid": "0796f59a-3118-4441-bfa7-f1b7c38713d6",
-          "width": 0,
+          "width": 109,
           "x": 318,
-          "y": 592,
+          "y": 535,
           "zOrder": 13,
           "numberProperties": [],
           "stringProperties": [],
@@ -1479,22 +1532,6 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Monster",
-          "persistentUuid": "c60b04cf-43a6-47f9-ad72-00133bf7ca92",
-          "width": 0,
-          "x": 3912,
-          "y": 481,
-          "zOrder": 27,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": true,
           "depth": 1,
           "height": 64,
@@ -1514,14 +1551,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 426,
+          "height": 338,
           "keepRatio": true,
           "layer": "",
           "name": "Ladder",
           "persistentUuid": "d4dc3c5f-1973-4ad8-8632-3fc33c350642",
-          "width": 195,
-          "x": 3819,
-          "y": 184,
+          "width": 82,
+          "x": 3842,
+          "y": 205,
           "zOrder": 29,
           "numberProperties": [],
           "stringProperties": [],
@@ -1802,6 +1839,23 @@
           "x": 126,
           "y": 214,
           "zOrder": 38,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 121,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Monster",
+          "persistentUuid": "8c733657-cfa8-4db6-8036-bf9a576e6d98",
+          "width": 109,
+          "x": 3904,
+          "y": 423,
+          "zOrder": 13,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2173,9 +2227,9 @@
           "effects": [],
           "behaviors": [
             {
-              "ignoreDefaultControls": false,
               "name": "PlatformerObject",
               "type": "PlatformBehavior::PlatformerObjectBehavior",
+              "ignoreDefaultControls": false,
               "acceleration": 1000,
               "canGoDownFromJumpthru": true,
               "canGrabPlatforms": false,
@@ -2647,7 +2701,7 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": true,
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Monster",
           "type": "Sprite",
@@ -2686,7 +2740,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "NewSprite4",
+                      "image": "Monster2",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2702,20 +2756,36 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 1,
-                            "y": 1
+                            "x": 25,
+                            "y": 3
                           },
                           {
-                            "x": 63,
-                            "y": 1
+                            "x": 49.5,
+                            "y": 3.5
                           },
                           {
-                            "x": 63,
-                            "y": 63
+                            "x": 49,
+                            "y": 21.5
                           },
                           {
-                            "x": 1,
-                            "y": 63
+                            "x": 64,
+                            "y": 21.5
+                          },
+                          {
+                            "x": 64,
+                            "y": 33
+                          },
+                          {
+                            "x": 49,
+                            "y": 33
+                          },
+                          {
+                            "x": 49,
+                            "y": 64
+                          },
+                          {
+                            "x": 25,
+                            "y": 64
                           }
                         ]
                       ]
@@ -2761,13 +2831,49 @@
               "useMultipleDirections": false,
               "directions": [
                 {
-                  "looping": false,
+                  "looping": true,
                   "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
+                  "timeBetweenFrames": 0.05,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Flies4",
+                      "image": "Flies5",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 10
+                          },
+                          {
+                            "x": 125,
+                            "y": 10
+                          },
+                          {
+                            "x": 125,
+                            "y": 62
+                          },
+                          {
+                            "x": 3,
+                            "y": 62
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Flies6",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2973,7 +3079,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "NewSprite5",
+                      "image": "NewSprite6",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2989,20 +3095,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 12,
-                            "y": 5
+                            "x": 0,
+                            "y": 0
                           },
                           {
-                            "x": 34,
-                            "y": 5
+                            "x": 68,
+                            "y": 0
                           },
                           {
-                            "x": 34,
-                            "y": 54
+                            "x": 68,
+                            "y": 229
                           },
                           {
-                            "x": 12,
-                            "y": 54
+                            "x": 0,
+                            "y": 229
                           }
                         ]
                       ]
