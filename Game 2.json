@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 282,
+    "build": 283,
     "major": 5,
     "minor": 6,
     "revision": 0
@@ -932,6 +932,17 @@
         "name": "assets\\StartingGround.png4",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/Roboto-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "e96b43b0ca3fd7775d75a702f44cd1b0dfd325e1db317f7cba84efdf572571fe_Roboto-Regular.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Open Font License/e96b43b0ca3fd7775d75a702f44cd1b0dfd325e1db317f7cba84efdf572571fe_Roboto-Regular.ttf",
+          "name": "gdevelop-asset-store"
+        }
       }
     ]
   },
@@ -3121,6 +3132,17 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": []
         }
       ],
       "objectsFolderStructure": {
@@ -3176,6 +3198,9 @@
           },
           {
             "objectName": "Background_Night"
+          },
+          {
+            "objectName": "NewSprite"
           }
         ]
       },
@@ -3552,7 +3577,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "name": "Mushroom Score",
+          "name": "Blueberry Score",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [],
@@ -4428,8 +4453,8 @@
           "name": "Retry_Button",
           "persistentUuid": "1d6243ea-d6d4-4f04-b63e-ee6264c7014a",
           "width": 0,
-          "x": 526,
-          "y": 589,
+          "x": 551,
+          "y": 389,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -4447,6 +4472,23 @@
           "x": 245,
           "y": 278,
           "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 213,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Credits",
+          "persistentUuid": "ea817e24-b88c-434c-a00c-c58e2b33868a",
+          "width": 717,
+          "x": 23,
+          "y": 493,
+          "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4557,6 +4599,49 @@
             "lineHeight": 0,
             "color": "0;0;0"
           }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "Credits",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Credits:\n\nBackground: saukgp\nBlueberry sound: freesound_community\nGame End music: freesound_community\nFound Friend sound: freesound_community\nDeath sound: R0T0R\nLevel Win sound: KRNBEATZ\nJump sound: EdR",
+          "font": "e96b43b0ca3fd7775d75a702f44cd1b0dfd325e1db317f7cba84efdf572571fe_Roboto-Regular.ttf",
+          "textAlignment": "left",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Credits:\n\nBackground: saukgp\nBlueberry sound: freesound_community\nGame End music: freesound_community\nFound Friend sound: freesound_community\nDeath sound: R0T0R\nLevel Win sound: KRNBEATZ\nJump sound: EdR",
+            "font": "e96b43b0ca3fd7775d75a702f44cd1b0dfd325e1db317f7cba84efdf572571fe_Roboto-Regular.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 20,
+            "lineHeight": 0,
+            "color": "0;0;0"
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -4567,6 +4652,9 @@
           },
           {
             "objectName": "Collected_Blueberries"
+          },
+          {
+            "objectName": "Credits"
           },
           {
             "objectName": "Retry_Button"
